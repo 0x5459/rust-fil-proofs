@@ -12,3 +12,6 @@ members = [
   "filecoin-hashers",
   "storage-proofs-update",
 ]
+
+[patch.crates-io]
+ec-gpu-gen = { git = "https://github.com/filecoin-project/ec-gpu", branch = "fix-multiexp-kernel-ceil" }
